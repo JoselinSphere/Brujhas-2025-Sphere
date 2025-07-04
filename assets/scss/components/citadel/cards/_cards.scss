@@ -238,8 +238,7 @@
     margin: 0 auto !important;
    border-radius: 0px;
     border: 0;
-    /* Object-fit polyfill */
-    font-family: "object-fit: contain;";
+    object-position: top;
     max-height: 100%;
     object-fit: cover;
     height: 500px;
@@ -256,6 +255,7 @@
     max-height: 100%;
     // tamaño uniforme sin espacios vacíos
     object-fit: cover;
+    object-position: top;
     width: 100%;
     // Aumentar el tamaño de la imagen secundaria
     height: 500px;
